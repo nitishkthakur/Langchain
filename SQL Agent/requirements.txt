@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+langchain>=0.0.300
+ollama
+httpx
+python-dotenv

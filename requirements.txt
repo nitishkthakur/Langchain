@@ -1,14 +1,30 @@
-# Core LangChain dependencies
-langchain>=0.1.0
-langchain-community>=0.0.20
-langchain-core>=0.1.0
-langchain-openai>=0.0.5
+# Core LangChain dependencies (v1.0+ with middleware support)
+langchain>=1.0.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+
+# LangGraph for agent orchestration
+langgraph>=0.2.0
+langgraph-checkpoint>=2.0.0
+langgraph-checkpoint-sqlite>=2.0.0
+
+# MCP (Model Context Protocol) integration
+langchain-mcp-adapters>=0.1.0
+mcp>=1.0.0
+
+# Deep agents middleware (optional - for advanced middleware)
+deepagents>=0.1.0
 
 # Tavily search tool
 tavily-python>=0.3.0
 
+# HTTP client
+httpx>=0.25.0
+
 # Additional tools and utilities
 python-dotenv>=1.0.0
+pydantic>=2.0.0
 
 # For Jupyter notebooks
 jupyter>=1.0.0
@@ -16,5 +32,18 @@ ipykernel>=6.20.0
 notebook>=7.0.0
 
 # Optional dependencies for enhanced functionality
-langsmith>=0.0.77
+langsmith>=0.1.0
 faiss-cpu>=1.7.4
+
+# PDF generation from markdown
+markdown>=3.5.0
+weasyprint>=60.0
+markdown-katex>=202406.1035
+playwright>=1.40.0
+
+# Wikipedia API (for search server)
+wikipedia-api>=0.6.0
+
+# HTML extraction (for search server)
+trafilatura>=1.6.0
+markdownify>=0.11.0

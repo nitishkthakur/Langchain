@@ -1,0 +1,27 @@
+Output of `ollama list` executed in project directory:
+
+NAME                                                      ID              SIZE      MODIFIED     
+gemma3:12b                                                f4031aab637d    8.1 GB    7 weeks ago     
+gemma3:1b                                                 8648f39daa8f    815 MB    2 months ago    
+embeddinggemma:latest                                     85462619ee72    621 MB    2 months ago    
+hf.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF:Q4_K_XL    6dc6b5b77cb8    17 GB     2 months ago    
+hf.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF:Q2_K_XL    bf556672dadd    11 GB     2 months ago    
+hf.co/unsloth/Qwen3-4B-Thinking-2507-GGUF:Q2_K_XL         54d8e1c1d116    1.7 GB    2 months ago    
+hf.co/unsloth/Qwen3-4B-Thinking-2507-GGUF:Q4_K_XL         412d996a06f9    2.5 GB    2 months ago    
+hf.co/unsloth/Qwen3-30B-A3B-Thinking-2507-GGUF:Q4_K_M     5f41a2fe8104    18 GB     2 months ago    
+deepseek-r1:8b                                            6995872bfe4c    5.2 GB    2 months ago    
+qwen3:30b                                                 e50831eb2d91    18 GB     2 months ago    
+gemma3n:latest                                            15cb39fd9394    7.5 GB    2 months ago    
+bge-m3:latest                                             790764642607    1.2 GB    2 months ago    
+qwen3:32b                                                 030ee887880f    20 GB     3 months ago    
+magistral:latest                                          27bcbbf6d324    14 GB     3 months ago    
+qwen2.5:14b                                               7cdf5a0187d5    9.0 GB    3 months ago    
+mistral-small3.2:latest                                   5a408ab55df5    15 GB     3 months ago    
+gemma3:270m                                               e7d36fb2c3b3    291 MB    3 months ago    
+qwen3:8b                                                  500a1f067a9f    5.2 GB    3 months ago    
+qwen3:4b                                                  e55aed6fe643    2.5 GB    3 months ago    
+gpt-oss:latest                                            f2b8351c629c    13 GB     3 months ago    
+llama3.2-vision:latest                                    6f2f9757ae97    7.8 GB    3 months ago    
+gemma3:4b                                                 a2af6cc3eb7f    3.3 GB    3 months ago    
+qwen3:14b                                                 bdbd181c33f2    9.3 GB    3 months ago    
+nomic-embed-text:latest                                   0a109f422b47    274 MB    3 months ago
