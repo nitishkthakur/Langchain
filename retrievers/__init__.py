@@ -10,4 +10,6 @@ Retrievers are used to fetch relevant documents from various sources:
 - Custom sources
 """
 
-__all__ = []
+from .regex_retriever import regex_retriever
+
+__all__ = ["regex_retriever"]
