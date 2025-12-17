@@ -1,0 +1,28 @@
+Assume you have access to create_deep_agent from langchain. Build a general purpose coding agent like claude-code or gemini-cli or openai-codex which can work on LONG RUNNING CODING TASKS on problems which usilize offline filesystem files for context and manages memory well - due to the extremely long context requirements of the tasks it will work on. Write a python file but the agent can be invoked and had multiturn convos with through cli. 
+
+Internally, it will use some chat model like haiku or gpt-5-nano. Now, use an init_chat_model - write a code which builds a general purpose agent like codex or claude-code using just create_deep_agent and its middlewares or any custom defined middlewares. 
+
+1. Think all tools required, etc. Research on the web to look at recent documentation. 
+
+2. Really think about all the features, etc for building this general purpose agent for **long running coding tasks.** 
+
+3. Does not access github and internet
+
+4. The user should be able to stop by pressing ctrl+c anytime and add new instructions if required. Then, those new instructions will be inserted at that  location in the agent execution. Then, the user should be able to continue. The agent will pick off
+
+5. Let the user put all the inputs in the python file and not the cli. Keep the cli interface light. 
+
+6. Assume .env file is in cwd
+
+7. Research the documentation to make sure all your imports work and test it. Make sure you are able to run the code without errors and that it does what is expected. After testing, delete the test files.
+
+The agent with create_deep_agent based agent needs to work on long runnign coding tasks, utilizing filesystem, and being able to store things on disk when and where required in a folder. One of the key challenges it needs to conquer is to handle tasks where the context will be more than full - so, provide the user with memory options. Also, provide an option where the memory summarization happens using an LLM with a custom prompt. I should still be able to create subagents.
+
+This agent must be in a python file but needs to be capable of having multiturn conversations in cli. The agent must be invoked and conversed with on cli. Print the assistant messages, tool call or mcp results and user instructions - all in the terminal as they happen. Deeply research the documentation to do this. Use the documentation as much as possible. Also, use the pre-built options as much as possible. 
+
+
+
+
+
+
+Write code that builds an manager-workers type agent using the langchain class. Use an execute feedback structure to write this code - where the initial code you write  will be reviewed by you and given feedback for. Once done, improve based on your feedback. Maintain a counter - repeat till the counter is 3. Now, also create a file called summary where you summarize what you improved in each iteration.
